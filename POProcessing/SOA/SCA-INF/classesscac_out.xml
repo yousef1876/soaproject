@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Faults>
+   <Fault>
+      <severity>warning</severity>
+      <loc>/*[namespace-uri()='http://docs.oasis-open.org/wsbpel/2.0/process/executable'][local-name()='process']/*[namespace-uri()='http://docs.oasis-open.org/wsbpel/2.0/process/executable'][local-name()='sequence'][@name='main']/*[namespace-uri()='http://docs.oasis-open.org/wsbpel/2.0/process/executable'][local-name()='if'][@name='EvalulateCCStatus']/*[namespace-uri()='http://docs.oasis-open.org/wsbpel/2.0/process/executable'][local-name()='condition']</loc>
+      <line>88</line>
+      <col/>
+      <file>BPEL/approveLargeOrder.bpel</file>
+      <name>BPEL/approveLargeOrder.bpel</name>
+      <fix>Make sure that the expression in &lt;bpel:condition> is a boolean expression.</fix>
+      <msg>The expression $GetCreditCardStatus_execute_InputVariable.Reque ... in &lt;bpel:condition> is not a boolean expression.</msg>
+   </Fault>
+   <Fault>
+      <severity>error</severity>
+      <loc/>
+      <line/>
+      <col/>
+      <file>Mediators/RequestRoute.mplan</file>
+      <name>Mediators/RequestRoute.mplan</name>
+      <fix/>
+      <msg>Transformation required for Case "FileReference.execute" having different source and target part name types. Please make sure the source and target message part name are same and of same type.</msg>
+   </Fault>
+</Faults>
